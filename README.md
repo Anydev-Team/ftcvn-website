@@ -7,4 +7,4 @@ This is the repository for the FIRST Tech Challenge Vietnam website for the 2024
 | Date       | Version | Description                |
 |------------|---------|----------------------------|
 | 2024-09-19 | 1.0.0   | Initial release            |
-| 2024-09-29 | 1.0.1   | Added english translation  |
+| 2024-09-29 | 1.0.1   | Added English translation  |
