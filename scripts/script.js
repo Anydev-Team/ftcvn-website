@@ -17,6 +17,7 @@ document.getElementById('language-selector').onclick = function switchWebLangueg
   console.log('Language changed to ' + localStorage.getItem('lang'));
   window.location.href = '/';
 }
+
 document.getElementById('language-selector-main').onclick = function switchWebLanguege() {
   if (userLang === 'en') {
     localStorage.setItem('lang', 'vi');
