@@ -55,7 +55,7 @@
 }
 
 /* Dropdown menu */
-.dropdown .dropdown-menu {
+.dropdown .dropdown-menu.big-menu {
   transition: all 0.4s;
 
   max-height: 0;
@@ -63,13 +63,13 @@
   overflow: hidden;
 }
 
-.dropdown-menu {
+.dropdown-menu.big-menu {
   top: 100%;
   left: 0;
   margin-top: 0 !important;
 }
 
-.dropdown-menu.show { /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
+.dropdown-menu.big-menu.show { /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
   max-height: 500px;
   opacity: 1;
 }
