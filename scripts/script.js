@@ -6,6 +6,10 @@ window.onscroll = function() {
   }
 }
 
+if (localStorage.getItem('lang') === null) {
+  localStorage.setItem('lang', navigator.language || navigator.userLanguage);
+}
+
 var userLang = localStorage.getItem('lang') || navigator.language || navigator.userLanguage;
 
 document.getElementById('language-selector').onclick = function switchWebLanguege() {
