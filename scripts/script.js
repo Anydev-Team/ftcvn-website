@@ -1,3 +1,9 @@
+const excludedLocalePaths = ['faqs', '2324'];
+
+function isExceptedPath() {
+  return excludedLocalePaths.some(path => window.location.href.includes(path));
+}
+
 window.onscroll = function() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.querySelector(".navbar").style.backgroundColor = "#000000";
@@ -26,6 +32,6 @@ var userLang = localStorage.getItem('lang') || navigator.language || navigator.u
 
 // document.getElementById('language-selector-main').onclick = switchWebLanguege;
 
-if (userLang !== 'vi' && !window.location.href.includes('en')) {
+if (userLang !== 'vi' && !window.location.href.includes('en') && !isExceptedPath()) {
   window.location.href = 'en';
 }

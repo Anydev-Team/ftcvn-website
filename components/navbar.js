@@ -62,16 +62,17 @@ class Navbar extends LitElement {
                 </span>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">Về <span class="fw-bold fst-italic">FIRST®</span></a>
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/aboutFirst.html">Về <span class="fw-bold fst-italic">FIRST®</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">VORC 2024</a>
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/vorc-cantho.html">VORC 2024</a>
                 </li>
-                <li class="nav-item"></li>
-                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/faqs/">FAQs</span></a>
+                <li class="nav-item">
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/faqs/">FAQs</span></a>
+                </li>
                 </li>
                 <li class="nav-item dropdown" style="position: initial;">
                   <a class="nav-link dropdown-toggle border-0 shadow-none" style="outline: none; box-shadow: none; color: white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -174,13 +175,13 @@ class Navbar extends LitElement {
                 </span>
               </li>
               <li class="nav-item">
-                <a class="nav-link active border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
+                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">About <span class="fw-bold fst-italic">FIRST®</span></a>
+                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/aboutFirst.html">About <span class="fw-bold fst-italic">FIRST®</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">VORC 2024</a>
+                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/vorc-cantho.html">VORC 2024</a>
               </li>
               <li class="nav-item"></li>
               <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/faqs/">FAQs</span></a>
