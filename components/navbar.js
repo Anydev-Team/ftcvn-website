@@ -48,8 +48,8 @@ class Navbar extends LitElement {
                 }
               </style>
               <div class="nav-item d-inline-block px-2" style="position: initial;">
-                <span class="fi fi-vn" name="lang-switcher">
-                  <a class="nav-link text-decoration-none border-0 shadow-none" id="language-selector"></a>
+                <span class="fi fi-vn">
+                  <a class="nav-link text-decoration-none border-0 shadow-none" name="lang-switcher" id="language-selector"></a>
                 </span>
               </div>
               <span class="bi bi-list fs-1" style="color: #ff8100;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></span>
@@ -87,16 +87,16 @@ class Navbar extends LitElement {
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">FIRST Tech Challenge</a>
+                              <a href="https://www.firstinspires.org/robotics/ftc" class="text-white">FIRST Tech Challenge</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Vietnam Robotics Challenge (VRC)</a>
+                              <a href="/2324/vorc.html" class="text-white">Vietnam Open Robotics Challenge (VORC)</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Tổng hợp tài liệu FTC</a>
+                              <a href="https://ftc-docs.firstinspires.org/en/latest/index.html" class="text-white">Tổng hợp tài liệu FTC</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Supporting Programs</a>
+                              <a href="/2324/supportingPrograms.html" class="text-white">Supporting Programs</a>
                             </li>
                           </ul>
                         </div>
@@ -106,13 +106,13 @@ class Navbar extends LitElement {
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Tình nguyện viên</a>
+                              <a href="/2324/volunteer.html" class="text-white">Tình nguyện viên</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Mục lục Website</a>
+                              <a href="/2324/resources.html" class="text-white">Mục lục Website</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
+                              <a href="https://community.firstinspires.org/topic/ftc" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
                             </li>
                           </ul>
                         </div>
@@ -122,19 +122,19 @@ class Navbar extends LitElement {
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">goBilda</a>
+                              <a href="https://www.gobilda.com/" class="text-white">goBilda</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">AndyMark</a>
+                              <a href="https://www.andymark.com/" class="text-white">AndyMark</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Servocity</a>
+                              <a href="https://www.servocity.com/" class="text-white">Servocity</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">PITSCO</a>
+                              <a href="https://www.pitsco.com/" class="text-white">PITSCO</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Chief Delphi</a>
+                              <a href="https://www.chiefdelphi.com/" class="text-white">Chief Delphi</a>
                             </li>
                           </ul>
                         </div>
@@ -199,16 +199,16 @@ class Navbar extends LitElement {
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">FIRST Tech Challenge</a>
+                            <a href="https://www.firstinspires.org/robotics/ftc" class="text-white">FIRST Tech Challenge</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Vietnam Robotics Challenge (VRC)</a>
+                            <a href="/2324/vorc.html" class="text-white">Vietnam Open Robotics Challenge (VORC)</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">FTC Documents</a>
+                            <a href="https://ftc-docs.firstinspires.org/en/latest/index.html" class="text-white">FTC Documents</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Supporting Programs</a>
+                            <a href="/2324/supportingPrograms.html" class="text-white">Supporting Programs</a>
                           </li>
                         </ul>
                       </div>
@@ -218,13 +218,13 @@ class Navbar extends LitElement {
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Volunteer</a>
+                            <a href="/2324/en/volunteer/index.html" class="text-white">Volunteer</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Table of content</a>
+                            <a href="/2324/resources.html" class="text-white">Table of content</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
+                            <a href="https://community.firstinspires.org/topic/ftc" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
                           </li>
                         </ul>
                       </div>
@@ -234,19 +234,19 @@ class Navbar extends LitElement {
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">goBilda</a>
+                            <a href="https://www.gobilda.com/" class="text-white">goBilda</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">AndyMark</a>
+                            <a href="https://www.andymark.com/" class="text-white">AndyMark</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Servocity</a>
+                            <a href="https://www.servocity.com/" class="text-white">Servocity</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">PITSCO</a>
+                            <a href="https://www.pitsco.com/" class="text-white">PITSCO</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Chief Delphi</a>
+                            <a href="https://www.chiefdelphi.com/" class="text-white">Chief Delphi</a>
                           </li>
                         </ul>
                       </div>

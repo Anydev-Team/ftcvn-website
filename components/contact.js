@@ -41,19 +41,19 @@ class Contact extends LitElement {
             <div class="col mb-3">
               <h5 class="text-secondary fw-semibold">FTC VN</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Về FIRST</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Về FTC Vietnam</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Luật chơi</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Lịch trình</a></li>
+                <li class="nav-item mb-2"><a href="https://www.firstinspires.org/" class="nav-link p-0 text-white">Về FIRST</a></li>
+                <li class="nav-item mb-2"><a href="https://ftc.io.vn/" class="nav-link p-0 text-white">Về FTC Vietnam</a></li>
+                <li class="nav-item mb-2"><a href="/tbu/index.html" class="nav-link p-0 text-white">Luật chơi</a></li>
+                <li class="nav-item mb-2"><a href="/index.html#timeline-section" class="nav-link p-0 text-white">Lịch trình</a></li>
               </ul>
             </div>
             <div class="col mb-3">
               <h5 class="text-secondary fw-semibold">Hỗ trợ</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Đăng ký</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Vietnam Open Robotics Challenge</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Trang chính thức</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="/index.html#registration-section" class="nav-link p-0 text-white">Đăng ký</a></li>
+                <li class="nav-item mb-2"><a href="/2324/vorc.html" class="nav-link p-0 text-white">Vietnam Open Robotics Challenge</a></li>
+                <li class="nav-item mb-2"><a href="https://www.firstinspires.org/robotics/ftc" class="nav-link p-0 text-white">Trang chính thức</a></li>
+                <li class="nav-item mb-2"><a href="/faqs/index.html" class="nav-link p-0 text-white">FAQs</a></li>
               </ul>
             </div>
             <div class="col mb-3">
@@ -91,19 +91,19 @@ class Contact extends LitElement {
             <div class="col mb-3">
               <h5 class="text-secondary fw-semibold">FTC VN</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FIRST</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FTC Vietnam</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Rules</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Timeline</a></li>
+                <li class="nav-item mb-2"><a href="https://www.firstinspires.org/" class="nav-link p-0 text-white">FIRST</a></li>
+                <li class="nav-item mb-2"><a href="https://ftc.io.vn/" class="nav-link p-0 text-white">FTC Vietnam</a></li>
+                <li class="nav-item mb-2"><a href="/tbu/index.html" class="nav-link p-0 text-white">Rules</a></li>
+                <li class="nav-item mb-2"><a href="/en/index.html#timeline" class="nav-link p-0 text-white">Timeline</a></li>
               </ul>
             </div>
             <div class="col mb-3">
               <h5 class="text-secondary fw-semibold">Support</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Registration</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Vietnam Open Robotics Challenge</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FTC Official page</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="/en/index.html#registration-section" class="nav-link p-0 text-white">Registration</a></li>
+                <li class="nav-item mb-2"><a href="/2324/en/vorc/index.html" class="nav-link p-0 text-white">Vietnam Open Robotics Challenge</a></li>
+                <li class="nav-item mb-2"><a href="https://www.firstinspires.org/robotics/ftc" class="nav-link p-0 text-white">FTC Official page</a></li>
+                <li class="nav-item mb-2"><a href="/faqs" class="nav-link p-0 text-white">FAQs</a></li>
               </ul>
             </div>
             <div class="col mb-3">
