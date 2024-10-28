@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -14,121 +14,13 @@
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="stylesheet" href="../assets/css/resass.css">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/FIRSTTech_IconVert_RGB.png">
-  <meta name="description" content=" FIRST Tech Challenge Việt Nam là giải đấu FTC chính thức lần đầu tiên được tổ chức tại Việt Nam theo bản quyền của FIRST tại Hoa Kỳ. FIRST Tech Challenge Việt Nam mong muốn tạo ra một sân chơi về công nghệ nhằm khuyến khích tinh thần học tập, sáng tạo, mối quan tâm về xã hội của học sinh Việt Nam, đồng thời truyền cảm hứng và thúc đẩy học sinh học tập, thực hành, ứng dụng các công nghệ mới, góp phần xây dựng nguồn lực chất lượng cao, đáp ứng nhu cầu của cuộc cách mạng công nghiệp 4.0.">
+  <meta name="description" content="The FIRST Tech Challenge Vietnam is the first official FTC competition organized in Vietnam under the licensing of FIRST in the United States. FIRST Tech Challenge Vietnam aims to create a technology-focused platform to encourage the spirit of learning, creativity, and social engagement among Vietnamese students. At the same time, it seeks to inspire and motivate students to study, practice, and apply new technologies, thereby contributing to the development of a high-quality workforce that meets the demands of the Fourth Industrial Revolution.">
 </head>
 
 <body>
-
-  <!-- Navbar with mega menu -->
-  <div class="navbar navbar-expand-lg fixed-top" style="z-index: 9999; transition: 0.5s;">
-    <div class="container py-3">
-      <a class="navbar-brand" href="#">
-        <img src="../assets/images/ftcvn-logo.png" alt="" width="150" height="50" class="d-inline-block align-text-top">
-      </a>
-      <button class="navbar-toggler border-0" type="button">
-        <style>
-          #language-selector .dropdown-toggle::after {
-            content: none;
-          }
-        </style>
-        <div class="nav-item d-inline-block px-2" style="position: initial;">
-          <a class="nav-link text-decoration-none border-0 shadow-none" id="language-selector" onclick="switchWebLanguage()">
-            <span class="fi fi-us"></span>
-          </a>
-        </div>
-        <span class="bi bi-list fs-1" style="color: #ff8100;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></span>
-      </button>
-      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item d-none d-lg-block">
-            <a class="nav-link text-decoration-none border-0 shadow-none" id="language-selector-main" onclick="switchWebLanguage()">
-              <span class="fi fi-us"></span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">About <span class="fw-bold fst-italic">FIRST®</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">VORC 2024</a>
-          </li>
-          <li class="nav-item"></li>
-          <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">FAQs</span></a>
-          </li>
-          <li class="nav-item dropdown" style="position: initial;">
-            <a class="nav-link dropdown-toggle border-0 shadow-none" style="outline: none; box-shadow: none; color: white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              More
-            </a>
-            <div class="dropdown-menu big-menu w-100 rounded-0 border-0 p-0" style="background-color: #ff8100;">
-              <div class="container pt-4 pb-3">
-                <div class="row row-gap-3">
-                  <div class="col-12 col-lg-4">
-                    <h5 class="text-white">
-                      Competitions
-                    </h5>
-                    <ul class="list-unstyled">
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">FIRST Tech Challenge</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">Vietnam Robotics Challenge (VRC)</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">FTC Documents</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">Supporting Programs</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-12 col-lg-4">
-                    <h5 class="text-white">
-                      Information
-                    </h5>
-                    <ul class="list-unstyled">
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">Volunteer</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">Table of content</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-12 col-lg-4">
-                    <h5 class="text-white">
-                      Other Resources
-                    </h5>
-                    <ul class="list-unstyled">
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">goBilda</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">AndyMark</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">Servocity</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">PITSCO</a>
-                      </li>
-                      <li class="li-arrow pb-1" style="color: white;">
-                        <a href="#" class="text-white">Chief Delphi</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <!-- Navbar section -->
+  <script type="module" src="/components/navbar.js"></script>
+  <ftcvn-navbar></ftcvn-navbar>
 
   <!--Screen heigh 2-Column Banner section -->
   <section class="w-100 justify-content-center" style="min-height: 80vh; padding-top: 150px; background-color: #025aaa;">
@@ -171,13 +63,13 @@
             What is <span class="fw-bold" style="color: #025aaa;"><span class="fw-bolder fst-italic">FIRST®</span> Tech Challenge?</span>
           </h1>
           <p class="fs-5">
-            <span class="fw-bold">FIRST Tech Challenge</span> is more than just building robots. Teams (up to 15 team members, grades 7-12) participate in the challenge to design, build, program, and operate robots to compete in leagues. The robot kits are reusable from year to year and can be programmed in various levels of the Java language. In addition to designing and building robots, teams also participate in fundraising, branding, communications, and community outreach to win various prizes.
+            <span class="fw-bold"></span>FIRST® Tech Challenge (FTC) is way more than building robots. FIRST Tech Challenge teams (up to 15 team members, grades 7-12) are challenged to design, build, program, and operate robots to compete in a head-to-head challenge in an alliance format.
             <br />
             <br />
-            Guided by coaches and mentors, students can develop STEM skills and practice mechanical design principles, while also embracing values such as hard work, creativity, and teamwork. With <span class="fw-semibold" style="color: #025aaa;">Gracious Professionalism®</span>, students are encouraged to create their team's identity and become ambassadors for FIRST and STEM in their own communities.
+            Guided by adult coaches and mentors, students develop STEM skills and practice engineering principles, while realizing the value of hard work, innovation, and working as a team.
             <br />
             <br />
-            Each season will conclude with regional tournaments and the FIRST Championship in the United States.
+            The robot kit is reusable from year to year and can be coded using a variety of levels of Java-based programming. Teams design and build robots, raise funds, design and market their team brand, and do community outreach to earn specific awards. Participants are eligible to apply for $80M+ in college scholarships.
           </p>
         </div>
         <div class="col-12 col-lg-6 align-content-center">
@@ -195,7 +87,7 @@
       </div>
       <div class="col-lg-7 col-12 mx-auto text-center text-lg-start mt-3 mt-lg-0">
         <h4 class="text-white fs-4">2024-2025 Seasn theme: INTO THE DEEP<sup>SM</sup> by RTX</h4>
-        <p class="text-white fs-5">In the <span class="fw-semibold">INTO THE DEEP</span> season, sponsored by Raytheon Technologies (RTX), the FIRST Tech Challenge will unveil the power of design, creativity, and precision to create countless new experiences.</p>
+        <p class="text-white fs-5">In the <span class="fw-semibold">INTO THE DEEP</span> season, the FIRST Tech Challenge will unveil the power of design, creativity, and precision to create countless new experiences.</p>
         <a class="btn bg-white p-3 text-primary fw-semibold">Explore</a>
       </div>
       <div class="col-12 d-flex flex-wrap w-100 justify-content-around mt-4">
@@ -204,6 +96,34 @@
         <span class="fs-5 fw-semibold text-white">#MoreThanRobots</span>
         <span class="fs-5 fw-semibold text-white">#FIRSTTechChallenge</span>
         <span class="fs-5 fw-semibold text-white">#IntoTheDeep</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content-image section -->
+  <section class="pt-5 pb-3 w-100" style="background: url(/assets/media/event-day.jpg) no-repeat; background-position: right 30%; min-height: 700px;">
+    <div class="container mx-auto">
+      <div class="row w-100 mx-auto">
+        <div class="col-12 col-lg-7 align-content-center bg-white pt-5 pb-3 px-3 rounded">
+          <h1 class="fw-semibold fs-1 mb-3">
+            About <span class="fw-bold" style="color: #025aaa;"><span class="fw-bolder fst-italic">FIRST®</span> Tech Challenge Vietnam 2024 - 2025</span>
+          </h1>
+          <p class="fs-5">
+            <span class="fw-bold">FIRST Tech Challenge Vietnam (FTC VN)</span> is a certified regional championship in Vietnam, where two teams awarded Inspire Award and 1st Place Alliance Captain will advance to the FIRST World Championship.
+            <br/>
+            <br/>
+            We’re welcoming international teams to join us this year! Especially Southeast Asia, namely: Philippines, Myanmar (Burma), Malaysia, Cambodia, Laos, Singapore, Timor-Leste (East Timor), Brunei Darussalam.
+          </p>
+          <h2>Who can join the championship</h2>
+          <ul>
+            <li>Rookie (new) teams</li>
+            <li>Veteran (returning) teams from FIRST Tech Challenge Vietnam 2023-2024</li>
+            <li>International teams, whose region DOES NOT have a regional championship.</li>
+          </ul>
+          <p>Note: For International teams whose region DOES have a regional championship, check our FAQs </p>
+        </div>
+        <div class="col-12 col-lg-5 align-content-center">
+        </div>
       </div>
     </div>
   </section>
