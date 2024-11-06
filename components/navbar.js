@@ -41,37 +41,39 @@ class Navbar extends LitElement {
             <a class="navbar-brand" href="#">
               <img src="/assets/images/ftcvn-logo.png" alt="" width="150" height="50" class="d-inline-block align-text-top">
             </a>
+
             <button class="navbar-toggler border-0" type="button">
-              <style>
-                #language-selector .dropdown-toggle::after {
-                  content: none;
-                }
-              </style>
-              <div class="nav-item d-inline-block px-2" style="position: initial;">
-                <span class="fi fi-vn" name="lang-switcher">
-                  <a class="nav-link text-decoration-none border-0 shadow-none" id="language-selector"></a>
-                </span>
-              </div>
-              <span class="bi bi-list fs-1" style="color: #ff8100;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></span>
-            </button>
+            <style>
+              #language-selector .dropdown-toggle::after {
+                content: none;
+              }
+            </style>
+            <div class="nav-item d-inline-block px-2" style="position: initial;">
+              <a class="nav-link text-decoration-none border-0 shadow-none" id="language-selector">
+                <span class="fi fi-vn"></span>
+              </a>
+            </div>
+            <span class="bi bi-list fs-1" style="color: #ff8100;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></span>
+          </button>
             <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item d-none d-lg-block">
                 <span class="fi fi-vn">
-                  <button class="nav-link text-decoration-none border-0 shadow-none" id="language-selector-main" name="lang-switcher"></button>
+                  <button class="nav-link text-decoration-none border-0 shadow-none" name="lang-switcher"></button>
                 </span>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">Về <span class="fw-bold fst-italic">FIRST®</span></a>
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/aboutFirst.html">Về <span class="fw-bold fst-italic">FIRST®</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">VORC 2024</a>
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/vorc-cantho.html">VORC 2024</a>
                 </li>
-                <li class="nav-item"></li>
-                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/faqs/">FAQs</span></a>
+                <li class="nav-item">
+                  <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/faqs/">FAQs</span></a>
+                </li>
                 </li>
                 <li class="nav-item dropdown" style="position: initial;">
                   <a class="nav-link dropdown-toggle border-0 shadow-none" style="outline: none; box-shadow: none; color: white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -82,58 +84,40 @@ class Navbar extends LitElement {
                       <div class="row row-gap-3">
                         <div class="col-12 col-lg-4">
                           <h5 class="text-white">
-                            Về cuộc thi
+                            Dành cho đội thi: 
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">FIRST Tech Challenge</a>
+                              <a href="/tbu/index.html" class="text-white">FTC Community Facebook Group</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Vietnam Robotics Challenge (VRC)</a>
+                              <a href="https://bit.ly/FTCVN2425_TeamRegistration" class="text-white">Team Registration Form</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Tổng hợp tài liệu FTC</a>
+                              <a href="https://bit.ly/FTCVN2425_FinAid" class="text-white">Financial Aid Application Form</a>
                             </li>
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Supporting Programs</a>
+                              <a href="/tbu/index.html" class="text-white">Advising Program Registration Form</a>
                             </li>
                           </ul>
                         </div>
                         <div class="col-12 col-lg-4">
                           <h5 class="text-white">
-                            Thông tin chung
+                            Dành cho cựu thí sinh và cộng đồng:
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Tình nguyện viên</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Mục lục Website</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
+                              <a href="https://bit.ly/FTCVN2425_Volunteer" class="text-white">Volunteer Registration Form</a>
                             </li>
                           </ul>
                         </div>
                         <div class="col-12 col-lg-4">
                           <h5 class="text-white">
-                            Đường dẫn khác
+                            Dành cho các công ty và tổ chức:
                           </h5>
                           <ul class="list-unstyled">
                             <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">goBilda</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">AndyMark</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Servocity</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">PITSCO</a>
-                            </li>
-                            <li class="li-arrow pb-1" style="color: white;">
-                              <a href="#" class="text-white">Chief Delphi</a>
+                              <a href="https://bit.ly/FTCVN2425_Partner" class="text-white">Partners Interest Form</a>
                             </li>
                           </ul>
                         </div>
@@ -160,9 +144,9 @@ class Navbar extends LitElement {
               }
             </style>
             <div class="nav-item d-inline-block px-2" style="position: initial;">
-                <span class="fi fi-us">
-                  <a class="nav-link text-decoration-none border-0 shadow-none" id="language-selector" name="lang-switcher"></a>
-                </span>
+              <a class="nav-link text-decoration-none border-0 shadow-none" id="language-selector">
+                <span class="fi fi-us"></span>
+              </a>
             </div>
             <span class="bi bi-list fs-1" style="color: #ff8100;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></span>
           </button>
@@ -170,17 +154,17 @@ class Navbar extends LitElement {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item d-none d-lg-block">
                 <span class="fi fi-us">
-                  <button class="nav-link text-decoration-none border-0 shadow-none" id="language-selector-main" name="lang-switcher"></button>
+                  <button class="nav-link text-decoration-none border-0 shadow-none" name="lang-switcher"></button>
                 </span>
               </li>
               <li class="nav-item">
-                <a class="nav-link active border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
+                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">About <span class="fw-bold fst-italic">FIRST®</span></a>
+                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/en/aboutFirst">About <span class="fw-bold fst-italic">FIRST®</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/">VORC 2024</a>
+                <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/2324/en/vorc-cantho">VORC 2024</a>
               </li>
               <li class="nav-item"></li>
               <a class="nav-link border-0 shadow-none text-white" aria-current="page" href="/faqs/">FAQs</span></a>
@@ -194,58 +178,40 @@ class Navbar extends LitElement {
                     <div class="row row-gap-3">
                       <div class="col-12 col-lg-4">
                         <h5 class="text-white">
-                          Competitions
+                          For student teams:
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">FIRST Tech Challenge</a>
+                            <a href="/tbu/index.html" class="text-white">FTC Community Facebook Group</a>
                           </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Vietnam Robotics Challenge (VRC)</a>
-                          </li>
+                              <a href="https://bit.ly/FTCVN2425_TeamRegistration" class="text-white">Team Registration Form</a>
+                            </li>
+                            <li class="li-arrow pb-1" style="color: white;">
+                              <a href="https://bit.ly/FTCVN2425_FinAid" class="text-white">Financial Aid Application Form</a>
+                            </li>
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">FTC Documents</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Supporting Programs</a>
+                            <a href="/tbu/index.html" class="text-white">Advising Program Registration Form</a>
                           </li>
                         </ul>
                       </div>
                       <div class="col-12 col-lg-4">
                         <h5 class="text-white">
-                          Information
+                          For alumni and community members:
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Volunteer</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Table of content</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Blog <span class="fw-bold fst-italic">FIRST®</span></a>
+                            <a href="https://bit.ly/FTCVN2425_Volunteer" class="text-white">Volunteer Registration Form</a>
                           </li>
                         </ul>
                       </div>
                       <div class="col-12 col-lg-4">
                         <h5 class="text-white">
-                          Other Resources
+                          For companies and organizations:
                         </h5>
                         <ul class="list-unstyled">
                           <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">goBilda</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">AndyMark</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Servocity</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">PITSCO</a>
-                          </li>
-                          <li class="li-arrow pb-1" style="color: white;">
-                            <a href="#" class="text-white">Chief Delphi</a>
+                            <a href="https://bit.ly/FTCVN2425_Partner" class="text-white">Partners Interest Form</a>
                           </li>
                         </ul>
                       </div>
